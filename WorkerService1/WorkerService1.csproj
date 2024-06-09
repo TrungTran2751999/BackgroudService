@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-WorkerService1-C6DE2C57-1D5F-4FF5-940F-B88AE60FE0D1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.31" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.28" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.1.0" />
+  </ItemGroup>
+</Project>
